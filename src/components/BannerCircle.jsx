@@ -37,7 +37,7 @@ export default function BannerCircle() {
         {listDestination.data.map((item, index) => (
           <div class="item mt-5">
             <div key={index}>
-              <CircleCard src={`${item.image}`} title={item.place} />
+              <CircleCard src={item.image} title={item.place} />
             </div>
           </div>
         ))}
